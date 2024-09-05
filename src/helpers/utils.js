@@ -3,7 +3,7 @@ export const getRoot = () => {
         case 'development':
             return '/';
         case 'production':
-            return 'https://ambitstream.github.io/easywiki/';
+            return 'https://ambitstream.github.io/easy-wiki/';
         default:
             return '/';
     }
