@@ -29,7 +29,7 @@ const Layout = (props: PropsWithChildren<LayoutProps>) => {
                         <div
                             onClick={() => setIsPromptVisible(true)}
                             className="key-icon"
-                        >Change Key</div>
+                        >Change API Key</div>
                     : ""}
                 </header>
                 {!openAIKey ?
